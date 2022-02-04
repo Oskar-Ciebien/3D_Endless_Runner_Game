@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6264499336113531930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6264499336113531933}
+  - component: {fileID: 6264499336113531932}
+  m_Layer: 0
+  m_Name: ObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6264499336113531933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6264499336113531930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6264499336113531932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6264499336113531930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2daae450c0f3b4847ab12b7ec641b596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabItems:
+  - Prefab: {fileID: 9183606921581790647, guid: 13870b4648d24494b93bd5d15bc810db, type: 3}
+    Amount: 1
+    IsExpandable: 1
+  - Prefab: {fileID: 4799625870381698273, guid: 22c4698b58163bc4d911e9b1876af5da, type: 3}
+    Amount: 7
+    IsExpandable: 0
+  - Prefab: {fileID: 7421962403968042235, guid: 09472cd628c17754a87bf3350156f240, type: 3}
+    Amount: 7
+    IsExpandable: 0
+  - Prefab: {fileID: 4026209265901242340, guid: e8d2f2add3c903646920c312ba99e71a, type: 3}
+    Amount: 5
+    IsExpandable: 0
+  - Prefab: {fileID: 4929247301043504864, guid: a53f479cade084a459b7dace4e22436e, type: 3}
+    Amount: 6
+    IsExpandable: 0
+  - Prefab: {fileID: 8264764483056237386, guid: 7fa1d2861ce75d941b739a580ef84bfd, type: 3}
+    Amount: 4
+    IsExpandable: 0
+  - Prefab: {fileID: 9176542985563833948, guid: 81891f386be90fc45aca82228657677a, type: 3}
+    Amount: 10
+    IsExpandable: 0
+  - Prefab: {fileID: 7310497516362419076, guid: 191ae9580c55eb34ab6228e7d31ea2b7, type: 3}
+    Amount: 2
+    IsExpandable: 0
+  - Prefab: {fileID: 8367243588336321669, guid: c89caa5e200da7f41afe5cbb5de083db, type: 3}
+    Amount: 9
+    IsExpandable: 0
+  - Prefab: {fileID: 7904445346363488065, guid: a08410aafa363104ba96d3142d571a85, type: 3}
+    Amount: 8
+    IsExpandable: 0
+  - Prefab: {fileID: 5102936070093435491, guid: 01c31864718446348938f519c5d4cf11, type: 3}
+    Amount: 5
+    IsExpandable: 0
+  - Prefab: {fileID: 8665738181157250724, guid: 1d606c2eb1dd5b742bb0e252e6b90771, type: 3}
+    Amount: 4
+    IsExpandable: 0
+  - Prefab: {fileID: 5446855056777221924, guid: c759b0398431b39408991b2d296a40f7, type: 3}
+    Amount: 0
+    IsExpandable: 0
+  poolItemsToUse: []
